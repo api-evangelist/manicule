@@ -1,22 +1,67 @@
 aid: manicule
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/manicule.png
 name: Manicule
-description: Manicule is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Manicule is an AI-native technical documentation studio, backed by Y Combinator
+  (Spring 2026), that specializes in developer relations and technical content for
+  developer-tool and AI-native companies. It builds documentation from scratch,
+  revamps existing docs, and provides ongoing maintenance as products evolve,
+  pairing AI agents for auditing, code verification, and scaling with human
+  expertise in information architecture, writing, and creative direction. Its work
+  spans documentation, blogs, cookbooks, videos, and SEO, optimized for discovery
+  by both AI agents and human developers. Clients include Supermemory, Greptile,
+  Reducto, Rootly, Promptlayer, and Skyvern. Manicule is a professional-services
+  company, not an API provider — it publishes no public API, SDK, or MCP surface.
 url: https://raw.githubusercontent.com/api-evangelist/manicule/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: services-company-no-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Developer Relations
+- Technical Documentation
+- AI-Native Content
+- DevTools
+- Content Studio
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/manicule-domain-security.yml
+- type: Website
+  url: https://manicule.dev
+- type: PrivacyPolicy
+  url: https://manicule.dev/privacy-policy
+- type: TermsOfService
+  url: https://manicule.dev/terms-of-service
+- type: X
+  url: https://x.com/manicule
+- type: LinkedIn
+  url: https://www.linkedin.com/company/manicule
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
