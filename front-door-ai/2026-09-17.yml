@@ -1,0 +1,30 @@
+# Front Door AI Index — manicule — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: manicule
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: manicule.dev
+  final_host: manicule.com
+  ownership: own
+  owner: manicule
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 11
+  host_score: 11
+  density: 15.26
+  words: 721
+  tiers:
+    agentic: 4
+    core: 5
+    model: 2
+  ambiguous: 24
+  top_terms:
+    agent: 24
+    AI: 5
+    AI agent: 3
+    ChatGPT: 1
+    Claude: 1
+    agentic: 1
